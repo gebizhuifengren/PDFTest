@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFTest", "PDFTest\PDFTest.csproj", "{06B78ECB-F261-4A4E-BD6B-4847FE38193A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDF", "TestDF\TestDF.csproj", "{5B695848-2111-4AEB-A781-BF8CDA0FE391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFLib", "PDFLib\PDFLib.csproj", "{1CAFC951-D655-4F42-B8E4-4B3DB7A70738}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{06B78ECB-F261-4A4E-BD6B-4847FE38193A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06B78ECB-F261-4A4E-BD6B-4847FE38193A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06B78ECB-F261-4A4E-BD6B-4847FE38193A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06B78ECB-F261-4A4E-BD6B-4847FE38193A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B695848-2111-4AEB-A781-BF8CDA0FE391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B695848-2111-4AEB-A781-BF8CDA0FE391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B695848-2111-4AEB-A781-BF8CDA0FE391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B695848-2111-4AEB-A781-BF8CDA0FE391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAFC951-D655-4F42-B8E4-4B3DB7A70738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAFC951-D655-4F42-B8E4-4B3DB7A70738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAFC951-D655-4F42-B8E4-4B3DB7A70738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAFC951-D655-4F42-B8E4-4B3DB7A70738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
